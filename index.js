@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   
     // Fetch party data from  API and render 
     try {
-      const response = await fetch('https://fsa-async-await.herokuapp.com/api/workshop/parties');
+      const response = await fetch('https://fsa-crud-2aa9294fe819.herokuapp.com/api/2410-FTB-ET_WEB_AM/recipes');
       const data = await response.json();
       renderPartyList(data);
     } catch (error) {
